@@ -1,0 +1,71 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: poppins;
+    margin: 0;
+    
+}
+.special {
+    color:  orange ;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.flexible-container{
+       display: flex;
+       gap: 60px;
+}
+.flexible-container2 {
+       display: flex;
+       gap: 80px;
+       padding-left: 70px;
+       padding-right: 70px;
+}
+
+.Welcome-Section {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.middle-section{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+
+}
+
+.half-width {
+    width: 50%;
+}
+.right-content img {
+    width: 100%;
+}
+.left-content2 img {
+    width: 100%;
+}   
+
+.btn {
+    background-image: linear-gradient(orange, tomato, red);
+    padding: 5px 30px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.end-section h3 {
+    color: orange;
+}
+.end-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
